@@ -1,6 +1,7 @@
 ---
 layout: default
 avatar: /social/assets/img/ahmed.jpeg
+mahlas: Ahmet
 
 github: 
  - lazypwny751
