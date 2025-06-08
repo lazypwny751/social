@@ -1,0 +1,157 @@
+<div class="social-container">
+  {% if page.github %}
+    {% for i in page.github %}
+      <div class="social-icon github">
+        <div class="icon-container">
+          <img src="assets/svg/github.svg" alt="GitHub Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://github.com/{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.instagram %}
+    {% for i in page.instagram %}
+      <div class="social-icon instagram">
+        <div class="icon-container">
+          <img src="assets/svg/instagram.svg" alt="Instagram Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://www.instagram.com/{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.linkedin %}
+    {% for i in page.linkedin %}
+      <div class="social-icon linkedin">
+        <div class="icon-container">
+          <img src="assets/svg/linkedin.svg" alt="LinkedIn Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://www.linkedin.com/in/{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.facebook %}
+    {% for i in page.facebook %}
+      <div class="social-icon facebook">
+        <div class="icon-container">
+          <img src="assets/svg/facebook.svg" alt="Facebook Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://www.facebook.com/{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.telegram %}
+    {% for i in page.telegram %}
+      <div class="social-icon telegram">
+        <div class="icon-container">
+          <img src="assets/svg/telegram.svg" alt="Telegram Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://t.me/{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.discord %}
+    {% for i in page.discord %}
+      <div class="social-icon discord">
+        <div class="icon-container">
+          <img src="assets/svg/discord.svg" alt="Discord Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://discord.com/users/{{ i.id }}" target="_blank">{{ i.name }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.twitter %}
+    {% for i in page.twitter %}
+      <div class="social-icon twitter">
+        <div class="icon-container">
+          <img src="assets/svg/twitter.svg" alt="Twitter Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://twitter.com/{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.youtube %}
+    {% for i in page.youtube %}
+      <div class="social-icon youtube">
+        <div class="icon-container">
+          <img src="assets/svg/youtube.svg" alt="YouTube Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://www.youtube.com/c/{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.twitch %}
+    {% for i in page.twitch %}
+      <div class="social-icon twitch">
+        <div class="icon-container">
+          <img src="assets/svg/twitch.svg" alt="Twitch Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://www.twitch.tv/{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.matrix %}
+    {% for i in page.matrix %}
+      <div class="social-icon matrix">
+        <div class="icon-container">
+          <img src="assets/svg/matrix.svg" alt="Matrix Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://matrix.to/#/{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.tiktok %}
+    {% for i in page.tiktok %}
+      <div class="social-icon tiktok">
+        <div class="icon-container">
+          <img src="assets/svg/tiktok.svg" alt="TikTok Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://www.tiktok.com/@{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.reddit %}
+    {% for i in page.reddit %}
+      <div class="social-icon reddit">
+        <div class="icon-container">
+          <img src="assets/svg/reddit.svg" alt="Reddit Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="https://www.reddit.com/user/{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+
+  {% if page.site %}
+    {% for i in page.site %}
+      <div class="social-icon site">
+        <div class="icon-container">
+          <img src="assets/svg/site.svg" alt="Site Icon" />
+        </div>
+        <div class="separator"></div>
+        <a href="{{ i }}" target="_blank">{{ i }}</a>
+      </div>
+    {% endfor %}
+  {% endif %}
+</div>

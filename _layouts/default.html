@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: "en" }}>
+	{%- include head.html -%}
+<body>
+	<div class="container">
+	    <div class="profile-wrapper">
+	    	{% if page.avatar %}
+				<img src="{{ page.avatar }}" alt="Avatar">
+			{% else %}
+				<img src="assets/img/orangecat.jpeg" alt="Default Avatar">
+			{% endif %}
+	    </div>
+
+		<h1>{{ page.mahlas | default: "Orange Car" }}</h1>
+		<p>{{ content }}</p>
+
+		{%- include social.html -%}
+	</div>
+
+	{%- include footer.html -%}
+</body>
+</html>
