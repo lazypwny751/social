@@ -7,6 +7,8 @@ github:
  - lazypwny751
 instagram: 
  - pinguftw
+linkedin:
+ - ahmet-taha-yüksel-6b783a256
 discord:
  - name: lazypwny751
    id: 612185954538487808
